@@ -1,3 +1,11 @@
+# Note:
+1. Test for security check: settings -> Advanced Security -> Dependabot -> Enable; 
+2. Actions: Add OSV-Scanner; 
+3. View result: 
+  Insights -> Dependency graph; 
+  Security and quality -> Dependabot -> Vulnerability; 
+  Security and quality -> Code scanning
+
 # PyGoat
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
