@@ -20,6 +20,9 @@ on:
     - cron: '38 1 * * 0'
   push:
     branches: [ "master" ]
+    
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   # Require writing security events to upload SARIF file to security tab
